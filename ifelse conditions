@@ -1,0 +1,15 @@
+h=int(input('enter your height'))
+if(h<5):
+    print('you are short')
+    if(h==2):
+        print('your height is ',h,'feet')
+    elif(h==3):
+        print('your short',h,'feet')
+    elif(h==4):
+        print('your height is',h,'feet')
+    else:
+        print('not matched')
+elif(h==5):
+    print('you are medium height')
+else:
+    print('your height is max')
