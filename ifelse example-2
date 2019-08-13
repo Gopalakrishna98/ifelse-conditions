@@ -1,0 +1,11 @@
+a=input('please start the vehicle')
+if(a=='start'):
+    print('vehicle started')
+else:
+    print('not started')
+if(a=='move'):
+    print('vehicle  already started & moving ')
+elif(a=='speed'):
+     print('vehicle on speed')
+else:
+    print('vehicle in repair')
